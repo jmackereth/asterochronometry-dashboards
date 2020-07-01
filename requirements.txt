@@ -1,0 +1,7 @@
+jupyterlab
+requests
+ipywidgets
+ipympl
+numpy
+matplotlib
+voila
