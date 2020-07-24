@@ -1,1 +1,1 @@
-web: voila —-port=$PORT —-no-browser nootebook/galaxy-assembly-art.ipynb
+web: voila —-port=$PORT —-no-browser ./readrun_HR.ipynb
