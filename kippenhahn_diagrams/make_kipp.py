@@ -7,7 +7,7 @@ from AsteroMergers.processing import plotting as pl
 from AsteroMergers.utils import functions as uf
 
 
-hist_nums = os.listdir('OUTREACH_GRID/WALTER')[:2]
+hist_nums = os.listdir('../OUTREACH_GRID/WALTER')
 # hist_nums = ['0003', '0004', '0005', '0007', '0008', '0009', '0017', '0018',
 #              '0019', '0031', '0032', '0033', '0041', '0042', '0043', '0044',
 #              '0045', '0046', '0047', '0048', '0051', '0052', '0055', '0056',
