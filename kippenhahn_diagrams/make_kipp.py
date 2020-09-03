@@ -18,7 +18,7 @@ hist_nums = os.listdir('../OUTREACH_GRID/WALTER')
 #              '0138', '0139', '0150', '0151', '0152', '0153', '0154', '0161',
 #              '0162', '0163', '0164', '0166', '0167', '0168', '0172']
 
-grid = '/rds/projects/2017/miglio-stellar-grids/walter/base_grid'
+grid = '/rds/projects/2017/miglioa-stellar-grids/walter/base_grid'
 all_hist = [ld.MesaData(f'{grid}/{hist_num}/LOGS/history.data') for hist_num in hist_nums]
 
 
@@ -32,5 +32,5 @@ for hist in all_hist:
     rc_ages = hist.get('star_age')[mask] /1e6
     ax.set_xlim(min(rc_ages), max(rc_ages))
 
-    f.savefig(f'kippenhahn_diagrams/{figname}')
+    f.savefig(f'{figname}')
     plt.close(f)
