@@ -1,4 +1,5 @@
 jupyterlab
+jupyterlab_latex
 requests
 ipywidgets
 ipympl
